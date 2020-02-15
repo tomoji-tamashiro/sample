@@ -1,96 +1,82 @@
-/* ヘッダーメニュー */
+<!DOCTYPE html>
+<html>
 
-.header {
-  background-color: #26d0c9;
-  color: #fff;
-  height: 90px;
-  padding-right:50px;
-}
+<head>
+<meta @charset "UTF-8";>
+<link rel="stylesheet" href="stylesheet.css">
+<title>摂津市応援メディア</title>
+</head>
+<body>
+  <!-- ヘッダーメニュー -->
+  <div class="header">
+    <div class="header-logo">FUKUKITI</div>
+    <div class="header-list">
+      <ul>
+        <li>飲食店</li>
+        <li>美容サロン</li>
+        <li>お問合せ</li>
+      </ul>
+    </div>
+  </div>
 
-.header-logo {
-  float: left;
-  padding: 20px 40px;
-  font-size: 30px;
-}
+  <!-- メインコンテンツ -->
+  <div class="main">
+    <div class="container">
+      <h1>摂津市の応援メディア</h1>
+      <h2>〜暮らしに役立つ情報〜</h2>
+    </div>
 
-.header-list {
-  float: right
-}
+    <h3 class="section-title">カテゴリ</h3>
 
-.header-list li {
-  list-style: none;
-  float: left;
-  padding: 15px 20px;
-}
+    <div class="contents-item">
+          <img src="#">
+          <p>飲食店</p>
+    </div>
+    <div class="contents-item">
+          <img src="#">
+          <p>美容サロン</p>
+    </div>
+    <div class="contents-item">
+          <img src="#">
+          <p>お問合せ</p>
+    </div>
+  </div>
 
-/* メインコンテンツ */
+<!-- 問い合わせフォーム -->
+<div class="contact-form">
+  <h3 class="section-title">お問い合わせ</h3>
+  <p>メールアドレス（必須）</p>
+  <!-- <input>要素を追加してください -->
+  <input>
 
-.main {
-  padding: 30px 80px  250px 80px;
+  <p>お問い合わせ内容（必須）</p>
+  <!-- <textarea>要素を追加してください -->
+  <textarea></textarea>
 
-}
+  <p>※必須項目は必ずご入力ください</p>
+  <!-- <input>要素を追加してください -->
+  <input class="contact-submit" type="submit" value="送信">
 
-.container {
-  background-color: #e6e6fa;
-  padding: 30px;
-}
-
-.container h1 {
-  font-size: 40px;
-}
-
-.section-title {
-  padding: 50px 0 10px 0;
-  border-bottom: 2px solid #dee7ec;
-}
-
-.contents-item {
-  float: left;
-  padding: 40px;
-}
-
-
-/* 問い合わせフォーム */
-.contact-form {
-  padding: 0px 80px 20px 80px;
-}
-
-input,textarea{
-  width: 400px;
-  margin-top: 10px;
-  margin-bottom: 30px;
-  padding: 20px;
-  font-size: 18px;
-  border: 1px solid #dee7ec;
-}
-
-.contact-submit{
-  background-color: #dee7ec;
-  color: #889eab;
-}
+</div>
 
 
-/* フッター */
-.footer {
-  background-color: #2f5167;
-  color: #fff;
-  height: 10px;
-  padding: 60px;
+<!-- フッター -->
+  <div class="footer">
+    <div class="footer-logo">FUKUKIT</div>
+    <div class="footer-list">
+      <ul>
+        <li>会社概要</li>
+        <li>お問合せ</li>
+      </ul>
+    </div>
+  </div>
 
-}
 
-.footer-logo {
-  float: left;
-  font-size: 20px;
-}
 
-.footer-list {
-  float: right;
-  display: flex;
-  align-items: center;
-}
 
-.footer-list li {
-  list-style: none;
-  margin: 0px auto
-}
+
+
+
+
+</body>
+</html>
