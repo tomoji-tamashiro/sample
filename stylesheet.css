@@ -1,0 +1,96 @@
+/* ヘッダーメニュー */
+
+.header {
+  background-color: #26d0c9;
+  color: #fff;
+  height: 90px;
+  padding-right:50px;
+}
+
+.header-logo {
+  float: left;
+  padding: 20px 40px;
+  font-size: 30px;
+}
+
+.header-list {
+  float: right
+}
+
+.header-list li {
+  list-style: none;
+  float: left;
+  padding: 15px 20px;
+}
+
+/* メインコンテンツ */
+
+.main {
+  padding: 30px 80px  250px 80px;
+
+}
+
+.container {
+  background-color: #e6e6fa;
+  padding: 30px;
+}
+
+.container h1 {
+  font-size: 40px;
+}
+
+.section-title {
+  padding: 50px 0 10px 0;
+  border-bottom: 2px solid #dee7ec;
+}
+
+.contents-item {
+  float: left;
+  padding: 40px;
+}
+
+
+/* 問い合わせフォーム */
+.contact-form {
+  padding: 0px 80px 20px 80px;
+}
+
+input,textarea{
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+
+.contact-submit{
+  background-color: #dee7ec;
+  color: #889eab;
+}
+
+
+/* フッター */
+.footer {
+  background-color: #2f5167;
+  color: #fff;
+  height: 10px;
+  padding: 60px;
+
+}
+
+.footer-logo {
+  float: left;
+  font-size: 20px;
+}
+
+.footer-list {
+  float: right;
+  display: flex;
+  align-items: center;
+}
+
+.footer-list li {
+  list-style: none;
+  margin: 0px auto
+}
